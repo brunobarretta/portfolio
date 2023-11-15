@@ -1,20 +1,20 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaStar, FaGraduationCap, FaSuitcase, FaGlobeAsia } from 'react-icons/fa';
+import { FaRocket } from 'react-icons/fa6';
 
 
 const Experience = () => {
   return (
-    <div className='pb-20'>
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Work Experience & Education
-          </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            My previous jobs and my qualifications
-          </p>
-        </div>
+    <section id='experience' className='pb-10'>
+      <div className="text-center mb-20">
+        <FaRocket className="w-10 h-10 inline-block mb-4" />
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+         Work Experience & Education
+        </h1>
+        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+         My previous jobs and my qualifications
+        </p>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -86,8 +86,7 @@ const Experience = () => {
           icon={<FaStar />}
         />
       </VerticalTimeline>
-
-    </div>
+    </section>
   )
 }
 
