@@ -15,9 +15,9 @@ function App() {
       <div className="text-gray-400 bg-gray-900 body-font">
         <Navbar />
         <About />
+        <Experience />
         <Projects />
         <Skills />
-        <Experience />
         <Contact />
       </div>
 
