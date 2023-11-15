@@ -1,5 +1,5 @@
 
-const projects = [
+export const projects = [
     {
       title: "React Reserve",
       subtitle: "MERN Stack",
@@ -34,4 +34,8 @@ const projects = [
     },
   ];
 
-  export default projects
+  export const skills = [
+    'React JS', 'Angular 2+', 'Node', 'GraphQL', 'MySql', 'MongoDB', 'Firebase', 'HTML', 'CSS', 'Styled-Components', 'Tailwind', 'JavaScript', 'TypeScript', 'Git'
+  ]
+
+export default { projects, skills}

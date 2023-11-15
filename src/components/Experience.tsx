@@ -1,14 +1,13 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaStar, FaGraduationCap, FaSuitcase, FaGlobeAsia} from 'react-icons/fa';
+import { FaStar, FaGraduationCap, FaSuitcase, FaGlobeAsia } from 'react-icons/fa';
 
 
 const Experience = () => {
   return (
-    <div>
+    <div className='pb-20'>
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          {/* <CodeIcon className="mx-auto inline-block w-10 mb-4" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Work Experience & Education
           </h1>
@@ -27,7 +26,7 @@ const Experience = () => {
           icon={<FaSuitcase />}
         >
           <h3 className="text-lg font-bold text-gray-50">Front-end Developer</h3>
-          <h4 className="text-lg font-bold text-gray-50">Codex</h4>
+          <h4 className="text-md font-bold text-gray-50">Codex</h4>
           <h4 className="text-md text-gray-50">Campinas, SP</h4>
           <p className='text-gray-50'>
            React.js · TypeScript · JavaScript · HTML · CSS · Styled-components · Redux · GraphQL · Material-UI · GitLab  
@@ -40,7 +39,7 @@ const Experience = () => {
           icon={<FaSuitcase />}
         >
           <h3 className="text-lg font-bold text-sky-900">Fullstack Developer Jr</h3>
-          <h4 className="text-lg font-bold text-sky-900">KPEyes</h4>
+          <h4 className="text-md font-bold text-sky-900">KPEyes</h4>
           <h4 className="text-md text-sky-900">Indaiatuba, SP</h4>
           <p className='text-gray-500'>
             Angular · Node.js · Firebase · Ionic · MySQL · JavaScript · HTML · CSS 
@@ -78,6 +77,7 @@ const Experience = () => {
           icon={<FaGraduationCap />}
         >
           <h3 className="text-lg font-bold text-sky-900">System Analysis and Development</h3>
+          <h4 className="text-md font-bold text-sky-900">FATEC</h4>
           <h4 className="text-md font-bold text-sky-900">Bachelor of Technology</h4>
           <h4 className="text-md text-sky-900">Indaiatuba, SP</h4>
         </VerticalTimelineElement>
