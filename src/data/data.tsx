@@ -35,7 +35,7 @@ export const projects = [
   ];
 
   export const skills = [
-    'React JS', 'Angular 2+', 'Node', 'GraphQL', 'MySql', 'MongoDB', 'Firebase', 'HTML', 'CSS', 'Styled-Components', 'Tailwind', 'JavaScript', 'TypeScript', 'Git'
+    'React JS', 'Angular 2+', 'Ionic', 'Node', 'GraphQL', 'MySql', 'MongoDB', 'Firebase', 'HTML', 'CSS', 'Styled-Components', 'Tailwind', 'JavaScript', 'TypeScript', 'Git'
   ]
 
 export default { projects, skills}
