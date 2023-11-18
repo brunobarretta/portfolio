@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
-              className="object-cover object-center rounded"
+              className="w-9/12 object-cover object-center [clip-path:polygon(25%_0%,100%_0%,75%_100%,0%_100%)]"
               alt="hero"
               src="./profile.jpeg"
             />
