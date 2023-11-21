@@ -1,11 +1,12 @@
 {
-    "introduceMyself": "Hi, I'm Bruno Barretta.",
-    "language": "English",
     "navbar": {
-
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
     },
     "about": {
-
+        "introduceMyself": "Hi, I'm Bruno Barretta.",
+        "role": "Front-End Developer."
     },
     "experience": {
 

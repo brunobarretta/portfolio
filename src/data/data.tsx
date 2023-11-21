@@ -1,12 +1,12 @@
 
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "ReactGram",
+      subtitle: "React, Redux, Express, MongoDB, Mongoose e mais",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Projeto ReactGram desenvolvido durante o curso de React na Udemy.",
       image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
-      link: "https://reactbootcamp.com",
+      link: "https://github.com/brunobarretta/ReactGram",
     },
     {
       title: "React Tracks",
