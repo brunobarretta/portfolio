@@ -1,4 +1,12 @@
 {
-    "introduceMyself": "Bem-vindo, eu sou o Bruno Barretta.",
-    "language": "Português"
+    "navbar": {
+        "experience": "Experiência",
+        "projects": "Projetos",
+        "skills": "Habilidades"
+    },
+    "about": {
+        "introduceMyself": "Olá, eu sou o Bruno Barretta.",
+        "role": "Desenvolvedor Front-End.",
+        "bio": "Sou formado pela Faculdade de Tecnologia do Estado de São Paulo no curso de Análise e Desenvolvimento de Sistemas, tenho experiência trabalhando com aplicações web e mobile. Amo o que faço, sou movido a desafios e estou sempre buscando aprender cada dia mais. Atualmente minha stack principal é o React."
+    }
 }

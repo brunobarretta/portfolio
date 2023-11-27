@@ -1,4 +1,6 @@
 {
-    "introduceMyself": "こんにちは、私はブルーノ・バレッタです。",
-    "language": "Japanese"
+    "about": {
+        "introduceMyself": "こんにちは、私はブルーノ・バレッタです。",
+        "role": "フロントエンドの開発者。"
+    }
 }
