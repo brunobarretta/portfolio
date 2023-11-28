@@ -2,14 +2,29 @@
     "navbar": {
         "experience": "Experience",
         "projects": "Projects",
-        "skills": "Skills"
+        "skills": "Skills",
+        "contact": "Contact"
     },
     "about": {
         "introduceMyself": "Hi, I'm Bruno Barretta.",
-        "role": "Front-End Developer."
+        "role": "Front-End Developer.",
+        "btnContact": "Contact Me",
+        "btnProject": "See My Past Work"
     },
     "experience": {
-
+        "title": "Work Experience & Education",
+        "subtitle": "My previous jobs and my qualifications",
+        "present": "09/2022 - present",
+        "job_one": "Fullstack Developer Jr",
+        "job_two": "Front-end Developer",
+        "career_break": "Career Break",
+        "career_break_resume": "Career break to discover new cultures and achieve personal goals",
+        "city_idt": "Indaiatuba, Sao Paulo, Brazil",
+        "city_cps": "Campinas, Sao Paulo, Brazil",
+        "city_ngy": "Nagoya, Aichi, Japan",
+        "education_course": "System Analysis and Development",
+        "education_type": "Bachelor of Technology",
+        "education_college_name": "FATEC"
     },
     "projects": {
 

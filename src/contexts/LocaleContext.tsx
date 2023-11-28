@@ -14,7 +14,7 @@ interface LocaleProps {
 
     console.log(i18n.language)
 
-    i18n.on('languageChanged', (lng) => setLocale(i18n.language))
+    i18n.on('languageChanged', () => setLocale(i18n.language))
     
     const changeLanguage = (lng:string) => {
         i18n.changeLanguage(lng)

@@ -2,11 +2,29 @@
     "navbar": {
         "experience": "Experiência",
         "projects": "Projetos",
-        "skills": "Habilidades"
+        "skills": "Habilidades",
+        "contact": "Contato"
     },
     "about": {
         "introduceMyself": "Olá, eu sou o Bruno Barretta.",
         "role": "Desenvolvedor Front-End.",
-        "bio": "Sou formado pela Faculdade de Tecnologia do Estado de São Paulo no curso de Análise e Desenvolvimento de Sistemas, tenho experiência trabalhando com aplicações web e mobile. Amo o que faço, sou movido a desafios e estou sempre buscando aprender cada dia mais. Atualmente minha stack principal é o React."
+        "bio": "Sou formado pela Faculdade de Tecnologia do Estado de São Paulo no curso de Análise e Desenvolvimento de Sistemas, tenho experiência trabalhando com aplicações web e mobile. Amo o que faço, sou movido a desafios e estou sempre buscando aprender cada dia mais. Atualmente minha stack principal é o React.",
+        "btnContact": "Entre em Contato",
+        "btnProject": "Meus Projetos"
+    },
+    "experience": {
+        "title": "Experiência Profissional & Educação",
+        "subtitle": "Meus empregos anteriores e minhas qualificações",
+        "present": "09/2022 - o momento",
+        "job_one": "Desenvolvedor FullStack Jr",
+        "job_two": "Desenvolvedor Front-end",
+        "career_break": "Pausa na Carreira",
+        "career_break_resume": "Pausa na carreira para descobrir novas culturas e atingir objetivos pessoais",
+        "city_idt": "Indaiatuba, São Paulo",
+        "city_cps": "Campinas, São Paulo",
+        "city_ngy": "Nagoya, Aichi, Japão",
+        "education_course": "Análise e Desenvolvimento de Sistemas",
+        "education_type": "Graduação Tecnológica",
+        "education_college_name": "Faculdade de Tecnologia do Estado de São Paulo"
     }
 }
