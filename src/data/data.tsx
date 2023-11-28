@@ -9,20 +9,20 @@ export const projects = [
       link: "https://github.com/brunobarretta/ReactGram",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Portfólio",
+      subtitle: "React, Context API, Vite, Tailwind e i18n",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Portfólio pessoal desenvolvido usando algumas tecnologias atuais aprendidas durante o desenvolvimento do projeto",
       image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
-      link: "https://reedbarger.com",
+      link: "https://github.com/brunobarretta/portfolio",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Secret Word",
+      subtitle: "React, CSS e HTML",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Um projeto simples utilizando algumas ténicas aprendidas durante o curso de React da Udemy",
       image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
-      link: "https://jsbootcamp.com",
+      link: "https://github.com/brunobarretta/secret-word",
     },
     {
       title: "Epic Todo App",
