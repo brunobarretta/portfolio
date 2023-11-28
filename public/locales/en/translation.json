@@ -27,12 +27,19 @@
         "education_college_name": "FATEC"
     },
     "projects": {
-
+        "title": "My Projects",
+        "subtitle": "Some of my latest works and projects"
     },
     "skills": {
-
+        "title": "Skills & Technologies",
+        "subtitle": "Some technologies I've worked with"
     },
     "contact": {
-
+        "title": "Contact",
+        "subtitle": "Let's talk",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
     }
 }

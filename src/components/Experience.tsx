@@ -37,6 +37,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ boxShadow: '0 4px 0 rgb(33, 150, 243)' }}
           date="02/2022 - 09/2022"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaSuitcase />}
@@ -50,6 +51,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ boxShadow: '0 4px 0 rgb(148, 33, 243)' }}
           date="2019 - 2021"
           iconStyle={{ background: 'rgb(148, 33, 243)', color: '#fff' }}
           icon={<FaGlobeAsia />}
@@ -62,6 +64,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          contentStyle={{ boxShadow: '0 4px 0 rgb(33, 150, 243)' }}
           date="2006 - 2008"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaSuitcase />}
@@ -75,6 +78,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
+          contentStyle={{ boxShadow: '0 4px 0 rgb(233, 30, 99)' }}
           date="2015 - 2017"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<FaGraduationCap />}
