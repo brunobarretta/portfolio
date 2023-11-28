@@ -26,5 +26,21 @@
         "education_course": "Análise e Desenvolvimento de Sistemas",
         "education_type": "Graduação Tecnológica",
         "education_college_name": "Faculdade de Tecnologia do Estado de São Paulo"
+    },
+    "projects": {
+        "title": "Meu Projetos",
+        "subtitle": "Alguns dos meus últimos trabalhos e projetos"
+    },
+    "skills": {
+        "title": "Habilidades & Tecnologias",
+        "subtitle": "Tecnologias com as quais já trabalhei"
+    },
+    "contact": {
+        "title": "Contato",
+        "subtitle": "Vamos conversar",
+        "name": "Nome",
+        "email": "E-mail",
+        "message": "Mensagem",
+        "submit": "Enviar"
     }
 }

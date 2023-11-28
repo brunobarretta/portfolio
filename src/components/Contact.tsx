@@ -3,8 +3,10 @@ import { FaEnvelope } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/ReactToastify.min.css";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const {t} = useTranslation();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -48,10 +50,10 @@ const Contact = () => {
         <div className="text-center mb-10 mt-10">
           <FaEnvelope  className="w-10 h-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Contact
+            {t('contact.title')}
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Send me a message :)
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -61,7 +63,7 @@ const Contact = () => {
           className="lg:w-full md:w-full flex flex-col md:ml-auto w-full mt-8 pb-10 md:mt-0 items-center justify-center">
           <div className="lg:w-2/4 md:w-3/4 relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
+              {t('contact.name')}
             </label>
             <input
               type="text"
@@ -74,7 +76,7 @@ const Contact = () => {
           </div>
           <div className="lg:w-2/4 md:w-3/4 relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
+              {t('contact.email')}
             </label>
             <input
               type="email"
@@ -89,7 +91,7 @@ const Contact = () => {
             <label
               htmlFor="message"
               className="leading-7 text-sm text-gray-400">
-              Message
+                {t('contact.message')}
             </label>
             <textarea
               id="message"
@@ -103,7 +105,7 @@ const Contact = () => {
             disabled={loading}
             type="submit"
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
+            {t('contact.submit')}
           </button>
         </form>
         <ToastContainer theme={'dark'} autoClose={2000} />

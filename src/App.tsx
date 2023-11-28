@@ -7,8 +7,10 @@ import Experience from './components/Experience'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Loading from './components/Loading'
 import './i18n'
 import { LocaleProvider } from './contexts/LocaleContext'
+
 
 function App() {
  
@@ -16,7 +18,7 @@ function App() {
     <>
       <div className="text-gray-400 bg-gray-900 body-font">
         <LocaleProvider>
-          <Suspense fallback="...loading">
+          <Suspense fallback={<Loading />}>
             <Navbar />
             <About />
             <Experience />
