@@ -7,14 +7,14 @@
     },
     "about": {
         "introduceMyself": "Olá, eu sou o Bruno Barretta.",
-        "role": "Desenvolvedor Front-End.",
-        "bio": "Sou formado pela Faculdade de Tecnologia do Estado de São Paulo no curso de Análise e Desenvolvimento de Sistemas, tenho experiência trabalhando com aplicações web e mobile. Amo o que faço, sou movido a desafios e estou sempre buscando aprender cada dia mais. Atualmente minha stack principal é o React.",
+        "role": "Desenvolvedor Front-End",
+        "bio": "Sou graduado na Faculdade de Tecnologia do Estado de São Paulo em Análise e Desenvolvimento de Sistemas. Tenho mais de 3 anos de experiência profissional, atuando no desenvolvimento de sistemas para ambientes web e mobile. Sou apaixonado pelo que faço, encontro inspiração em desafios e estou sempre buscando oportunidades para aprender e evoluir diariamente. Atualmente, estou focado principalmente no React como minha principal tecnologia.",
         "btnContact": "Entre em Contato",
         "btnProject": "Meus Projetos"
     },
     "experience": {
         "title": "Experiência Profissional & Educação",
-        "subtitle": "Meus empregos anteriores e minhas qualificações",
+        "subtitle": "Minhas experiências profissionais anteriores e minhas qualificações",
         "present": "09/2022 - o momento",
         "job_one": "Desenvolvedor FullStack Jr",
         "job_two": "Desenvolvedor Front-end",
@@ -29,7 +29,7 @@
     },
     "projects": {
         "title": "Meu Projetos",
-        "subtitle": "Alguns dos meus últimos trabalhos e projetos"
+        "subtitle": "Alguns dos meus trabalhos e projetos recentes"
     },
     "skills": {
         "title": "Habilidades & Tecnologias",

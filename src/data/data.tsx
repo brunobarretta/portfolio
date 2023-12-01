@@ -1,11 +1,14 @@
+import portfolioGif from '../assets/images/portfolio.gif'
+import secretwordGif from '../assets/images/secretword.gif'
+import reactgramGif from '../assets/images/reactgram.gif'
 
 export const projects = [
     {
       title: "ReactGram",
       subtitle: "React, Redux, Express, MongoDB, Mongoose e mais",
       description:
-        "Projeto ReactGram desenvolvido durante o curso de React na Udemy.",
-      image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
+        "Projeto ReactGram que é uma copia dos recursos base do Instagram, desenvolvido durante o curso de React na Udemy.",
+      image: reactgramGif,
       link: "https://github.com/brunobarretta/ReactGram",
     },
     {
@@ -13,7 +16,7 @@ export const projects = [
       subtitle: "React, Context API, Vite, Tailwind e i18n",
       description:
         "Portfólio pessoal desenvolvido usando algumas tecnologias atuais aprendidas durante o desenvolvimento do projeto",
-      image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
+      image: portfolioGif,
       link: "https://github.com/brunobarretta/portfolio",
     },
     {
@@ -21,17 +24,9 @@ export const projects = [
       subtitle: "React, CSS e HTML",
       description:
         "Um projeto simples utilizando algumas ténicas aprendidas durante o curso de React da Udemy",
-      image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
+      image: secretwordGif,
       link: "https://github.com/brunobarretta/secret-word",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg",
-      link: "https://pythonbootcamp.com",
-    },
+    }
   ];
 
   export const skills = [

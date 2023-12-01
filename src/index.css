@@ -18,3 +18,19 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #333;
 }
+
+.loader {
+    border-top-color: rgb(99 102 241);
+    border-left-color: rgb(99 102 241);;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
