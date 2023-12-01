@@ -1,9 +1,15 @@
+import { ImSpinner6 } from "react-icons/im";
 
 const Loading = () => {
   return (
-    <div>
-      Loading....
-    </div>
+    // <div className="h-screen">
+    //   <div className="flex justify-center items-center">
+    //    <ImSpinner6 className="text-8xl animate-spin"/>
+    //   </div>
+    // </div>
+    <div className="flex items-center justify-center h-screen">
+    <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-24 w-24"></div>
+  </div>
   )
 }
 
