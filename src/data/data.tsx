@@ -1,6 +1,7 @@
 import portfolioGif from '../assets/images/portfolio.gif'
 import secretwordGif from '../assets/images/secretword.gif'
 import reactgramGif from '../assets/images/reactgram.gif'
+import weatherAppGif from '../assets/images/weather-app.gif'
 
 export const projects = [
     {
@@ -18,6 +19,14 @@ export const projects = [
         "Portfólio pessoal desenvolvido usando algumas tecnologias atuais aprendidas durante o desenvolvimento do projeto",
       image: portfolioGif,
       link: "https://github.com/brunobarretta/portfolio",
+    },
+    {
+      title: "Weather App",
+      subtitle: "React, Fetch, CSS e HTML",
+      description:
+        "Um projeto simples utilizando uma API para pegar os dados do clima de uma determinada cidade",
+      image: weatherAppGif,
+      link: "https://github.com/brunobarretta/weather-app",
     },
     {
       title: "Secret Word",
