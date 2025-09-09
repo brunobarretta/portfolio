@@ -28,7 +28,6 @@ function App() {
           </Suspense>
         </LocaleProvider>
       </div>
-
     </>
   )
 }

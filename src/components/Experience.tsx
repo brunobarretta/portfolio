@@ -29,6 +29,21 @@ const Experience = () => {
           icon={<FaSuitcase />}
         >
           <h3 className="text-lg font-bold text-gray-200">{t('experience.job_two')}</h3>
+          <h4 className="text-md font-bold text-gray-300">Wave Technologies</h4>
+          <h4 className="text-md text-gray-300">{t('experience.city_cps')}</h4>
+          <p className='text-gray-200'>
+           NextJs · TypeScript · JavaScript · HTML · CSS · Styled-components · Zustand · React Query · GitHub  
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: 'rgb(79 70 229)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(79 70 229)' }}
+          date={"09/2022 - 02/2025"}
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<FaSuitcase />}
+        >
+          <h3 className="text-lg font-bold text-gray-200">{t('experience.job_two')}</h3>
           <h4 className="text-md font-bold text-gray-300">Codex</h4>
           <h4 className="text-md text-gray-300">{t('experience.city_cps')}</h4>
           <p className='text-gray-200'>
