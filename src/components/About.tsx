@@ -43,13 +43,16 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="w-9/12 object-cover object-center [clip-path:polygon(25%_0%,100%_0%,75%_100%,0%_100%)]"
-              alt="hero"
-              src="./profile.jpeg"
-            />
-          </div>
+       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 flex justify-center items-center">
+        <div className="relative group">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500 via-pink-500 to-yellow-500 opacity-40 blur-2xl group-hover:opacity-70 transition-opacity duration-500"></div>
+          <img
+            className="relative w-64 h-64 object-cover rounded-full shadow-xl transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-2 animate-float"
+            alt="hero"
+            src="./profile.jpeg"
+          />
+        </div>
+      </div>
         </div>
       </section>
     )
