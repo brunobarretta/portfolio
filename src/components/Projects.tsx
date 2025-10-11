@@ -32,14 +32,26 @@ const Projects = () => {
                   {project.title}
                 </h1>
                 <p className="leading-relaxed mb-4">{project.description}</p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-400 hover:text-green-300 font-medium"
-                >
-                  Ver no GitHub →
-                </a>
+                <div className="flex gap-5">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-400 hover:text-green-300 font-medium"
+                  >
+                    Ver no GitHub →
+                  </a>
+                  {project?.site && (
+                    <a
+                      href={project.site}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-green-400 hover:text-green-300 font-medium"
+                    >
+                      Ver site →
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

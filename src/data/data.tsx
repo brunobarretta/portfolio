@@ -1,4 +1,19 @@
-export const projects = [
+interface ProjectProps {
+  title: string;
+  subtitle: string;
+  description: string;
+  link: string;
+  site?: string;
+}
+
+export const projects:ProjectProps[] = [
+    {
+      title: "Busca Farmácia Popular",
+      subtitle: "React, Context API, Vite, Styled Components, Mapbox, MongoDB e mais",
+      description: "Farmácia Popular — Plataforma criada para facilitar o acesso às farmácias cadastradas no programa Farmácia Popular, oferecendo um mapa interativo e uma interface intuitiva que permite aos usuários localizar unidades próximas de forma simples, rápida e confiável.",
+      link: "https://github.com/brunobarretta/farmacia-popular",
+      site: "www.farmaciapopular.net.br"
+    },
     {
       title: "Moon Cat Veterinária ",
       subtitle: "NextJs e Tailwind",
