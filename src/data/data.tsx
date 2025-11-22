@@ -12,7 +12,7 @@ export const projects:ProjectProps[] = [
       subtitle: "React, Context API, Vite, Styled Components, Mapbox, MongoDB e mais",
       description: "Farmácia Popular — Plataforma criada para facilitar o acesso às farmácias cadastradas no programa Farmácia Popular, oferecendo um mapa interativo e uma interface intuitiva que permite aos usuários localizar unidades próximas de forma simples, rápida e confiável.",
       link: "https://github.com/brunobarretta/farmacia-popular",
-      site: "www.farmaciapopular.net.br"
+      site: "https://www.farmaciapopular.net.br"
     },
     {
       title: "Moon Cat Veterinária ",
@@ -20,6 +20,7 @@ export const projects:ProjectProps[] = [
       description:
         "Landing page para um clinica veterinária localizada na cidade de Indaiatuba/SP.",
       link: "https://github.com/brunobarretta/mooncat",
+      site: "https://www.mooncat.com.br"
     },
     {
       title: "ReactGram",
